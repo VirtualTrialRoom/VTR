@@ -2686,5 +2686,9 @@
 						#copyright ul li:first-child {
 							margin-top: 0;
 						}
+						input[type=file] { 
+    					width: 1px; 
+   						 display: none;
+}
 
 	}
