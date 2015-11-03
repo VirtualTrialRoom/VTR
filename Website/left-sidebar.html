@@ -15,17 +15,20 @@
 		 <link href="stylesheet/style.css" type="text/css" rel="stylesheet"/> 
     	<script src= "Threejs/three/build/three.js"></script>
     	<script src= "Threejs/three/examples/js/controls/OrbitControls.js"></script>
+    	<script src="Threejs/js/main.js"></script>
     	<style>
    		#threeModel {
-    			/*background-color: #000;*/
-    			width: 200px;
-    			height: 200px;
-    			border: 1px solid black;
+    			background-color: transparent;
+    			width: 300px;
+    			height: 500px;
+    			border: 1px solid transparent;
    				margin: 100px;
     			padding: 0px;
     			position: static; /* fixed or static */
     			
     		}
+
+    	#	
     	</style>
 	</head>
 	<body class="left-sidebar">
@@ -149,9 +152,12 @@
 												<h2>This is where all the magic happens!</h2>
 												<p>I know it sounds complex but generating a 3D model of yourself is pretty simple. Just follow the instructions!</p>
 											</header>
-											<div id="threeModel" style="width:200px; height:200px; background-color:black;">
+											<div id="threeModel">
 												<script src="Threejs/js/main.js"></script>
+												<button id="appendClothing"> Click me for happy</button>
 											</div>
+											
+
 
 									</div>
 											
